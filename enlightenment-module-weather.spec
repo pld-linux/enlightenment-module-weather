@@ -1,7 +1,7 @@
 %define		_module_name	weather
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: %{_module_name}
 # - confirm BR and Rs
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
