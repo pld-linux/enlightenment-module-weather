@@ -1,7 +1,7 @@
 %define		_module_name	weather
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu≥ Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):   Modu≈Ç Enlightenmenta DR17: %{_module_name}
 # - confirm BR and Rs
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A weather forecast module.
 
-%description -l pl
-Modu≥ prognozy pogody.
+%description -l pl.UTF-8
+Modu≈Ç prognozy pogody.
 
 %prep
 %setup -q -n %{_module_name}
